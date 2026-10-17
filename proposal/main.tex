@@ -1,0 +1,61 @@
+\documentclass[11pt,letterpaper]{article}
+\usepackage[margin=0.9in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{mathptmx,microtype,amsmath}
+\usepackage[hidelinks]{hyperref}
+\usepackage{titlesec}
+\titleformat{\section}{\normalsize\bfseries}{\thesection}{0.6em}{}
+\titlespacing*{\section}{0pt}{10pt}{5pt}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt}
+\pagestyle{plain}
+\begin{document}
+\begin{center}
+{\Large\bfseries Scaling Laws for Biological Realism\\[3pt] in DNA Language Models}\par
+\vspace{5pt}
+{Kevin Song \quad | \quad CIS 6200 Project Proposal}
+\end{center}
+\vspace{-5pt}
+
+\section{Research Question and Motivation}
+Do larger DNA language models preserve genomic structure over longer generated continuations, and how much of this behavior can next-token prediction loss explain? We will test whether sequence-level evaluation reveals capabilities or failures beyond the familiar improvement of prediction loss with model scale.
+
+Autoregressive genomic models learn to predict the next nucleotide from preceding DNA. During generation, however, they condition on their own sampled continuations. Accurate prediction on natural sequences therefore need not translate into preservation of every genomic property over long outputs. Establishing when prediction loss is a useful proxy for generation quality would improve model evaluation and clarify whether scaling advances biologically meaningful sequence modeling.
+
+We define \emph{realism} operationally as statistical resemblance to natural DNA from a specified organism and genomic region type, assessed through both learned discrimination and interpretable measures of genomic organization. A discriminator's inability to separate natural and generated DNA does not establish biological function. Our study will make claims about measured sequence properties, without equating statistical resemblance with cellular activity or viability.
+
+\section{Most Relevant Prior Work and Open Questions}
+Nguyen et al.\ introduced Evo and demonstrated predictable improvements in DNA next-token prediction across hundreds of models and several architectures~\cite{evo}. Nevertheless, their genome-scale generations lacked important genomic components. Brixi et al.\ extended this approach with Evo 2, reporting improved generation and predictive capabilities at larger scales, while noting that generated genomes can still lack essential elements~\cite{evo2}. These studies motivate scaling but do not establish a general relationship between prediction loss and the distance over which generated genomic structure is preserved.
+
+The closest evaluation work is Tzanakakis et al.~\cite{limitations}, whose preprint reports discrepancies between generated and natural sequences in repeats, composition, regulatory motifs, and long-range organization. Their accompanying benchmark includes a one-dimensional convolutional discriminator and evaluation by distance from the conditioning seed~\cite{benchmark}. Thus, demonstrating distinguishability or deterioration alone would repeat existing methodology. Our proposed contribution is a controlled comparison across model scales and an explicit test of whether prediction loss explains structural deterioration or leaves systematic residual differences.
+
+Information theory already provides a connection between prediction and distributional resemblance. If average conditional KL error is $\epsilon$ nats per nucleotide over a length-$L$ continuation, the KL chain rule and Pinsker's inequality imply $\operatorname{TV}(P_L,Q_L)\leq\sqrt{L\epsilon/2}$~\cite{kl,pinsker}. Here $\epsilon$ is excess cross-entropy above the true conditional entropy, not raw held-out loss. This bound can become vacuous at long lengths and does not guarantee that models with lower loss have better values of a particular biological metric. We will use it as a baseline interpretation, rather than claim a new universal guarantee.
+
+\newpage
+\section{Experimental Plan}
+\textbf{Models and data.} We will first audit available Evo 2 checkpoints, prioritizing the 1B, 7B, and 40B base models subject to computing resources. We will match context length and evaluation preprocessing and record differences in training data and token budgets. Since pretrained sizes may differ in training exposure, comparisons will describe checkpoint scaling rather than isolate a causal effect of parameter count. Additional intermediate checkpoints will be included if accessible; three sizes alone cannot establish a reliable power law.
+
+We will select natural genomic loci, reserve disjoint loci for evaluation, and separate discriminator training, validation, and testing by locus, grouping homologous regions where feasible. Evaluation regions will be held out from our analysis pipeline; absence from model pretraining will be checked where possible and otherwise reported as unknown. Every model will receive identical prompts. We will compute held-out negative log-likelihood in nats per nucleotide with a common context budget and generate continuations with fixed sampling settings and multiple random seeds.
+
+\textbf{Measurements.} At increasing distances from the prompt, we will extract fixed-length windows and compare them with matched natural continuations. Keeping window size fixed separates distance-dependent drift from the advantage a classifier receives from longer inputs. We will adapt the published 1D CNN, which detects patterns along nucleotide sequences, and report held-out AUROC with uncertainty from resampling loci. GC-only and $k$-mer classifiers will determine whether detectability is explained by simple composition. Natural-versus-natural controls will test for mismatched reference populations.
+
+The primary structural endpoint will be divergence in repeat-length and repeat-spacing distributions relative to natural variation. A secondary endpoint will quantify coding-region organization, including predicted coding density and intergenic spacing, within a selected annotated organism. Annotation-derived endpoints will be described as computational proxies. These measurements identify what changes when CNN scores worsen and test properties that may not track average prediction loss.
+
+\textbf{Analysis.} We will compare a model of quality based on prediction loss and generation distance with alternatives that additionally include model size and its interaction with distance. Evaluation will hold out loci and, when enough checkpoints are available, entire checkpoints. Because size and loss are correlated, we will emphasize predictive comparisons and uncertainty rather than interpret unstable regression coefficients causally. We will test power-law and simpler saturation descriptions only if the available scales support identifiable fits. A smaller loss-based bound alone will not be interpreted as evidence of better observed realism.
+
+\section{First Step, Expected Findings, and Contingencies}
+The first concrete experiment will use 100 disjoint annotated bacterial loci, common 1-kb prompts, and 16-kb continuations from two feasible checkpoints. Fixed 2-kb windows at several distances will establish generation cost, detector calibration, and repeat-statistic variability before expanding model size or sequence length. We expect distinguishability to increase with distance and hypothesize that structural endpoints will sometimes improve less consistently than loss; these are testable expectations, not assumed outcomes.
+
+If GC or $k$-mer baselines explain CNN performance, we will report that result and prioritize structural endpoints and composition-matched sensitivity analyses. If the detector fails its natural-versus-natural control, we will repair matching and splits before interpreting scores. If curves saturate immediately, we will evaluate shorter distances; if they remain flat, we will extend continuations within the shared context budget. If few checkpoints or limited compute prevent a defensible scaling fit, we will deliver a controlled comparative study. If all quality measures closely track loss, we will test that relationship on held-out loci and organisms and report the evidence for loss as a proxy without asserting a distinct scaling law.
+
+\clearpage
+\begin{thebibliography}{9}
+\small
+\bibitem{evo} E. Nguyen et al. Sequence modeling and design from molecular to genome scale with Evo. \emph{Science}, 386:eado9336, 2024. \href{https://doi.org/10.1126/science.ado9336}{doi:10.1126/science.ado9336}.
+\bibitem{evo2} G. Brixi et al. Genome modelling and design across all domains of life with Evo 2. \emph{Nature}, 652:1349--1361, 2026. \href{https://doi.org/10.1038/s41586-026-10176-5}{doi:10.1038/s41586-026-10176-5}.
+\bibitem{limitations} A. Tzanakakis, I. Mouratidis, and I. Georgakopoulos-Soares. Fundamental limitations of genomic language models for realistic sequence generation. \emph{bioRxiv}, 2026. Preprint. \href{https://doi.org/10.64898/2026.01.17.700093}{doi:10.64898/2026.01.17.700093}.
+\bibitem{benchmark} Georgakopoulos-Soares Lab. Synthetic Genomes Benchmark. Software accompanying Tzanakakis et al. Accessed October 17, 2026. \url{https://github.com/Georgakopoulos-Soares-lab/Synthetic_genomes_benchmark}.
+\bibitem{kl} A. Gopalan. Online Prediction and Learning, Lecture 21. Indian Institute of Science, 2015. \url{https://ece.iisc.ac.in/~aditya/E1245_Online_Prediction_Learning_F2015/Lecture_21_Scribe_Notes.pdf}.
+\bibitem{pinsker} C. L. Canonne. A short note on an inequality between KL and TV. \emph{arXiv:2202.07198}, 2022. \url{https://arxiv.org/abs/2202.07198}.
+\end{thebibliography}
+\end{document}
