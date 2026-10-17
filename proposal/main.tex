@@ -43,10 +43,10 @@ For each model, we will plot both measurements against distance and compare the 
 
 \textbf{Optional fine-tuning.} If time permits, we will explore reinforcement-learning fine-tuning of one small model. The model will sample short continuations, a frozen CNN will score them, and a policy-gradient update will increase the probability of higher-scoring outputs~\cite{seqgan}. We will retain next-base training on natural DNA and penalize large changes from the starting model to help keep training stable. We will compare this method with ordinary continued training under a similar computing budget. A separate classifier, the proposed structural score, and sequence-diversity measurements will test whether improvement extends beyond the reward used for training.
 
-\section{First Step, Expected Results, and Alternatives}
+\section{First Step and Hypotheses}
 The first step is to run a short training test of the 5M model in Savanna, verify next-base prediction and sampling, and estimate the cost of the full model family. We will then train the 5M and 10M models on 100M tokens each. An initial evaluation will use 100 held-out prompts, 256 bases per prompt, and 2,048-base continuations within a shared 4,096-base context limit. Successful runs will be followed by the remaining model sizes and longer continuations within that limit.
 
-We expect larger models to preserve some genomic patterns for longer and hypothesize that generated prefixes will make deterioration worse. If the smallest models generate little useful structure, we will begin diagnosis with the 50M or 100M model. If the proposed score misses controlled repeat changes, we will revise its features before using it for model comparisons. If RL improves only its training reward, we will reduce the reward weight and examine which patterns the classifier favors. Scaling, metric development, and diagnosis will be the main focus; fine-tuning will be optional.
+We hypothesize that larger models will preserve genomic patterns over longer continuations and that conditioning on generated prefixes will lead to greater deterioration than conditioning on natural prefixes.
 
 \clearpage
 \begin{thebibliography}{9}
