@@ -1,0 +1,27 @@
+{
+  "design_sha256": "c54ba14138fe1be7bf8a66cc3158d02b9186b812eec64fe63fe62a9397ff5bdd",
+  "pairs": 100,
+  "groups": 90,
+  "fixed_category_weights": {
+    "gtdb_v220_imgpr": 18,
+    "metagenomes": 24,
+    "imgvr_untagged": 3,
+    "mrna_splice_promoter": 9,
+    "mrna": 9,
+    "eukaryotic_genic_windows": 35,
+    "organelle": 0.5,
+    "ncrna": 2,
+    "promoters": 0.02
+  },
+  "screening_sha256": {
+    "data/cnn-reassessment-v1/eligible.json": "edd041b66ee70cb83b2a0737354a538686139c4f7b1c04df3949518e4fc10112",
+    "data/cnn-reassessment-v1/queries.fasta": "2027521982ea56a183ab916d9ed65029775cece235825503d5a440c39c7f3594",
+    "data/cnn-reassessment-v1/query-map.json": "724b3576b5abb64b073034e842867da36325b64f3780638c553b2333f23b2f19",
+    "data/cnn-reassessment-v1/cnn-corpus.fasta": "ae5121e58bc9d24a6fa5c4f6598d0d212a29bf686149b776fd3e5d681d70008f",
+    "reports/cnn-reassessment-v1/overlap-audit.json": "b683f22d0f09b5f9002fac6baea60814b7df88f492f47286fa4173f527485f28",
+    "data/cnn-reassessment-v1/cnn-asm10.paf": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "data/cnn-reassessment-v1/cnn-sr.paf": "95f6e7b178b30386d937ffbd010e9efc1ed892c1b5d2767a2b4ed29c8d82f761",
+    "data/cnn-reassessment-v1/lm-asm10.paf": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "data/cnn-reassessment-v1/lm-sr.paf": "e821e5c7f46de53dfc525cb3f21d1c4002bbbf9d066f64ed834538f4d076c645"
+  }
+}

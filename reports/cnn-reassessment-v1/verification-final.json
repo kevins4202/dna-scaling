@@ -1,0 +1,20 @@
+{
+  "status": "verified",
+  "pairs": 100,
+  "source_groups": 90,
+  "models": [
+    "5m",
+    "10m",
+    "25m",
+    "50m",
+    "100m",
+    "released_7b"
+  ],
+  "detectors": 30,
+  "same_ids_and_weights_for_all_models": true,
+  "no_detected_registered_threshold_overlap": true,
+  "all_source_input_hashes_match": true,
+  "independent_ensemble_and_sklearn_auroc_checks": true,
+  "protocol_sha256": "e77449b55b9cb720d5c901e3297c0ce30a357b6940e44388cde2df7144ca0c1e",
+  "evidence_manifest_sha256": "dd0e038fa55dcc7d0465959aadb226f2d1e388a303f8bfc50d5e0a7595983a8f"
+}

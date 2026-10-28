@@ -1,0 +1,1309 @@
+{
+  "status": "independently_verified_complete",
+  "folds": 210,
+  "strict_checkpoint_reloads": 210,
+  "all_saved_prediction_aurocs_reproduced": true,
+  "all_registered_input_hashes_match": true,
+  "frozen_project_cnn_unchanged": true,
+  "all_heldout_tags_excluded_from_fit_and_calibration": true,
+  "protocol_sha256": "f89149e828dd77d2d28e3ff35a0a9ab6f2455f560bddce081fc0cb6c0d43ca8c",
+  "verifier_sha256": "5594f07bce14f75abf4d9cea2a18cfc1de5e48d21825ccb051ed86ea3648cd04",
+  "evidence_manifest_sha256": "541701ab496f49ebd679ef211b3730c0ba45689051e034a429dd377970535eef",
+  "prefix_audit": {
+    "euk": {
+      "pairs": 782,
+      "common_prefix_quantiles": [
+        0.0,
+        3000.0,
+        3000.0,
+        3000.0,
+        3008.0
+      ],
+      "pairs_identical_first_3072_bases": 0
+    },
+    "prok": {
+      "pairs": 197,
+      "common_prefix_quantiles": [
+        0.0,
+        3000.0,
+        3000.0,
+        3000.0,
+        3005.0
+      ],
+      "pairs_identical_first_3072_bases": 0
+    },
+    "vir": {
+      "pairs": 379,
+      "common_prefix_quantiles": [
+        0.0,
+        3000.0,
+        3000.0,
+        3001.0,
+        3074.0
+      ],
+      "pairs_identical_first_3072_bases": 4
+    }
+  },
+  "fold_checks": [
+    {
+      "fold": 0,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 138
+    },
+    {
+      "fold": 1,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 126
+    },
+    {
+      "fold": 2,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 144
+    },
+    {
+      "fold": 3,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 128
+    },
+    {
+      "fold": 4,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 134
+    },
+    {
+      "fold": 5,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 142
+    },
+    {
+      "fold": 6,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 138
+    },
+    {
+      "fold": 7,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 128
+    },
+    {
+      "fold": 8,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 136
+    },
+    {
+      "fold": 9,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 134
+    },
+    {
+      "fold": 10,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 138
+    },
+    {
+      "fold": 11,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 136
+    },
+    {
+      "fold": 12,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 142
+    },
+    {
+      "fold": 13,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 132
+    },
+    {
+      "fold": 14,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 134
+    },
+    {
+      "fold": 15,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 136
+    },
+    {
+      "fold": 16,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 142
+    },
+    {
+      "fold": 17,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 128
+    },
+    {
+      "fold": 18,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 134
+    },
+    {
+      "fold": 19,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 134
+    },
+    {
+      "fold": 20,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 28
+    },
+    {
+      "fold": 21,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 28
+    },
+    {
+      "fold": 22,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 28
+    },
+    {
+      "fold": 23,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 20
+    },
+    {
+      "fold": 24,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 62
+    },
+    {
+      "fold": 25,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 64
+    },
+    {
+      "fold": 26,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 64
+    },
+    {
+      "fold": 27,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 58
+    },
+    {
+      "fold": 28,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 60
+    },
+    {
+      "fold": 29,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 24
+    },
+    {
+      "fold": 30,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 138
+    },
+    {
+      "fold": 31,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 126
+    },
+    {
+      "fold": 32,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 144
+    },
+    {
+      "fold": 33,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 128
+    },
+    {
+      "fold": 34,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 134
+    },
+    {
+      "fold": 35,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 142
+    },
+    {
+      "fold": 36,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 138
+    },
+    {
+      "fold": 37,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 128
+    },
+    {
+      "fold": 38,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 136
+    },
+    {
+      "fold": 39,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 134
+    },
+    {
+      "fold": 40,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 138
+    },
+    {
+      "fold": 41,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 136
+    },
+    {
+      "fold": 42,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 142
+    },
+    {
+      "fold": 43,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 132
+    },
+    {
+      "fold": 44,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 134
+    },
+    {
+      "fold": 45,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 136
+    },
+    {
+      "fold": 46,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 142
+    },
+    {
+      "fold": 47,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 128
+    },
+    {
+      "fold": 48,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 134
+    },
+    {
+      "fold": 49,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 134
+    },
+    {
+      "fold": 50,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 28
+    },
+    {
+      "fold": 51,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 28
+    },
+    {
+      "fold": 52,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 28
+    },
+    {
+      "fold": 53,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 20
+    },
+    {
+      "fold": 54,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 62
+    },
+    {
+      "fold": 55,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 64
+    },
+    {
+      "fold": 56,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 64
+    },
+    {
+      "fold": 57,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 58
+    },
+    {
+      "fold": 58,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 60
+    },
+    {
+      "fold": 59,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 24
+    },
+    {
+      "fold": 60,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 138
+    },
+    {
+      "fold": 61,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 126
+    },
+    {
+      "fold": 62,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 144
+    },
+    {
+      "fold": 63,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 128
+    },
+    {
+      "fold": 64,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 134
+    },
+    {
+      "fold": 65,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 142
+    },
+    {
+      "fold": 66,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 138
+    },
+    {
+      "fold": 67,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 128
+    },
+    {
+      "fold": 68,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 136
+    },
+    {
+      "fold": 69,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 134
+    },
+    {
+      "fold": 70,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 138
+    },
+    {
+      "fold": 71,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 136
+    },
+    {
+      "fold": 72,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 142
+    },
+    {
+      "fold": 73,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 132
+    },
+    {
+      "fold": 74,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 134
+    },
+    {
+      "fold": 75,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 136
+    },
+    {
+      "fold": 76,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 142
+    },
+    {
+      "fold": 77,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 128
+    },
+    {
+      "fold": 78,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 134
+    },
+    {
+      "fold": 79,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 134
+    },
+    {
+      "fold": 80,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 28
+    },
+    {
+      "fold": 81,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 28
+    },
+    {
+      "fold": 82,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 28
+    },
+    {
+      "fold": 83,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 20
+    },
+    {
+      "fold": 84,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 62
+    },
+    {
+      "fold": 85,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 64
+    },
+    {
+      "fold": 86,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 64
+    },
+    {
+      "fold": 87,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 58
+    },
+    {
+      "fold": 88,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 60
+    },
+    {
+      "fold": 89,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 24
+    },
+    {
+      "fold": 90,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 138
+    },
+    {
+      "fold": 91,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 126
+    },
+    {
+      "fold": 92,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 144
+    },
+    {
+      "fold": 93,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 128
+    },
+    {
+      "fold": 94,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 134
+    },
+    {
+      "fold": 95,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 142
+    },
+    {
+      "fold": 96,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 138
+    },
+    {
+      "fold": 97,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 128
+    },
+    {
+      "fold": 98,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 136
+    },
+    {
+      "fold": 99,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 134
+    },
+    {
+      "fold": 100,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 138
+    },
+    {
+      "fold": 101,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 136
+    },
+    {
+      "fold": 102,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 142
+    },
+    {
+      "fold": 103,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 132
+    },
+    {
+      "fold": 104,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 134
+    },
+    {
+      "fold": 105,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 136
+    },
+    {
+      "fold": 106,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 142
+    },
+    {
+      "fold": 107,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 128
+    },
+    {
+      "fold": 108,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 134
+    },
+    {
+      "fold": 109,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 134
+    },
+    {
+      "fold": 110,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 28
+    },
+    {
+      "fold": 111,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 28
+    },
+    {
+      "fold": 112,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 28
+    },
+    {
+      "fold": 113,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 20
+    },
+    {
+      "fold": 114,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 62
+    },
+    {
+      "fold": 115,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 64
+    },
+    {
+      "fold": 116,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 64
+    },
+    {
+      "fold": 117,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 58
+    },
+    {
+      "fold": 118,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 60
+    },
+    {
+      "fold": 119,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 24
+    },
+    {
+      "fold": 120,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 138
+    },
+    {
+      "fold": 121,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 126
+    },
+    {
+      "fold": 122,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 144
+    },
+    {
+      "fold": 123,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 128
+    },
+    {
+      "fold": 124,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 134
+    },
+    {
+      "fold": 125,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 142
+    },
+    {
+      "fold": 126,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 138
+    },
+    {
+      "fold": 127,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 128
+    },
+    {
+      "fold": 128,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 136
+    },
+    {
+      "fold": 129,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 134
+    },
+    {
+      "fold": 130,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 138
+    },
+    {
+      "fold": 131,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 136
+    },
+    {
+      "fold": 132,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 142
+    },
+    {
+      "fold": 133,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 132
+    },
+    {
+      "fold": 134,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 134
+    },
+    {
+      "fold": 135,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 136
+    },
+    {
+      "fold": 136,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 142
+    },
+    {
+      "fold": 137,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 128
+    },
+    {
+      "fold": 138,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 134
+    },
+    {
+      "fold": 139,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 134
+    },
+    {
+      "fold": 140,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 28
+    },
+    {
+      "fold": 141,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 28
+    },
+    {
+      "fold": 142,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 28
+    },
+    {
+      "fold": 143,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 20
+    },
+    {
+      "fold": 144,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 62
+    },
+    {
+      "fold": 145,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 64
+    },
+    {
+      "fold": 146,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 64
+    },
+    {
+      "fold": 147,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 58
+    },
+    {
+      "fold": 148,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 60
+    },
+    {
+      "fold": 149,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 24
+    },
+    {
+      "fold": 150,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 138
+    },
+    {
+      "fold": 151,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 126
+    },
+    {
+      "fold": 152,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 144
+    },
+    {
+      "fold": 153,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 128
+    },
+    {
+      "fold": 154,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 134
+    },
+    {
+      "fold": 155,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 142
+    },
+    {
+      "fold": 156,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 138
+    },
+    {
+      "fold": 157,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 128
+    },
+    {
+      "fold": 158,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 136
+    },
+    {
+      "fold": 159,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 134
+    },
+    {
+      "fold": 160,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 138
+    },
+    {
+      "fold": 161,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 136
+    },
+    {
+      "fold": 162,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 142
+    },
+    {
+      "fold": 163,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 132
+    },
+    {
+      "fold": 164,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 134
+    },
+    {
+      "fold": 165,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 136
+    },
+    {
+      "fold": 166,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 142
+    },
+    {
+      "fold": 167,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 128
+    },
+    {
+      "fold": 168,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 134
+    },
+    {
+      "fold": 169,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 134
+    },
+    {
+      "fold": 170,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 28
+    },
+    {
+      "fold": 171,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 28
+    },
+    {
+      "fold": 172,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 28
+    },
+    {
+      "fold": 173,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 20
+    },
+    {
+      "fold": 174,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 62
+    },
+    {
+      "fold": 175,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 64
+    },
+    {
+      "fold": 176,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 64
+    },
+    {
+      "fold": 177,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 58
+    },
+    {
+      "fold": 178,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 60
+    },
+    {
+      "fold": 179,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 24
+    },
+    {
+      "fold": 180,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 138
+    },
+    {
+      "fold": 181,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 126
+    },
+    {
+      "fold": 182,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 144
+    },
+    {
+      "fold": 183,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 128
+    },
+    {
+      "fold": 184,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 134
+    },
+    {
+      "fold": 185,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 142
+    },
+    {
+      "fold": 186,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 138
+    },
+    {
+      "fold": 187,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 128
+    },
+    {
+      "fold": 188,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 136
+    },
+    {
+      "fold": 189,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 134
+    },
+    {
+      "fold": 190,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 138
+    },
+    {
+      "fold": 191,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 136
+    },
+    {
+      "fold": 192,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 142
+    },
+    {
+      "fold": 193,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 132
+    },
+    {
+      "fold": 194,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 134
+    },
+    {
+      "fold": 195,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 136
+    },
+    {
+      "fold": 196,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 142
+    },
+    {
+      "fold": 197,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 128
+    },
+    {
+      "fold": 198,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 134
+    },
+    {
+      "fold": 199,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 134
+    },
+    {
+      "fold": 200,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 28
+    },
+    {
+      "fold": 201,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 28
+    },
+    {
+      "fold": 202,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 28
+    },
+    {
+      "fold": 203,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 20
+    },
+    {
+      "fold": 204,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 62
+    },
+    {
+      "fold": 205,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 64
+    },
+    {
+      "fold": 206,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 64
+    },
+    {
+      "fold": 207,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 58
+    },
+    {
+      "fold": 208,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 60
+    },
+    {
+      "fold": 209,
+      "strict_reload": true,
+      "prediction_metrics_match": true,
+      "fit_calibration_shared_pairs": 24
+    }
+  ]
+}

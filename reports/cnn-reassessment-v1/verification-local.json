@@ -1,0 +1,11 @@
+{
+  "status": "verified_local_copy",
+  "known_training_inputs_verified": 2805,
+  "screening_files_verified": 9,
+  "evidence_files_verified": 43,
+  "pairs": 100,
+  "groups": 90,
+  "all_30_detector_checkpoints_and_six_generations_unchanged": true,
+  "protocol_sha256": "e77449b55b9cb720d5c901e3297c0ce30a357b6940e44388cde2df7144ca0c1e",
+  "verification_sha256": "ed03750660f5cf3af04dc020591a0020d3ef7a2ac64cc074890f594bea4aa3b2"
+}

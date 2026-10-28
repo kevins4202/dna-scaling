@@ -1,0 +1,81 @@
+{
+  "original_pairs": 100,
+  "retained_pairs": 100,
+  "retained_groups": 90,
+  "retained_category_counts": {
+    "eukaryotic_genic_windows": 16,
+    "gtdb_v220_imgpr": 24,
+    "imgvr_untagged": 4,
+    "metagenomes": 32,
+    "mrna": 11,
+    "mrna_splice_promoter": 11,
+    "ncrna": 2
+  },
+  "excluded_source_groups": [],
+  "excluded_ids": [],
+  "hits": [],
+  "commands": [
+    [
+      "minimap2",
+      "-x",
+      "asm10",
+      "-c",
+      "--secondary=yes",
+      "-N",
+      "100",
+      "-t",
+      "4",
+      "/home/ksong37/cis6200/data/cnn-reassessment-v1/cnn-corpus.fasta",
+      "/home/ksong37/cis6200/data/cnn-reassessment-v1/queries.fasta"
+    ],
+    [
+      "minimap2",
+      "-x",
+      "sr",
+      "-c",
+      "--secondary=yes",
+      "-N",
+      "100",
+      "-t",
+      "4",
+      "-k",
+      "11",
+      "-w",
+      "5",
+      "/home/ksong37/cis6200/data/cnn-reassessment-v1/cnn-corpus.fasta",
+      "/home/ksong37/cis6200/data/cnn-reassessment-v1/queries.fasta"
+    ],
+    [
+      "minimap2",
+      "-x",
+      "asm10",
+      "-c",
+      "--secondary=yes",
+      "-N",
+      "100",
+      "-t",
+      "4",
+      "/home/ksong37/cis6200/data/mixture-100m-bounded/train.fasta",
+      "/home/ksong37/cis6200/data/cnn-reassessment-v1/queries.fasta"
+    ],
+    [
+      "minimap2",
+      "-x",
+      "sr",
+      "-c",
+      "--secondary=yes",
+      "-N",
+      "100",
+      "-t",
+      "4",
+      "-k",
+      "11",
+      "-w",
+      "5",
+      "/home/ksong37/cis6200/data/mixture-100m-bounded/train.fasta",
+      "/home/ksong37/cis6200/data/cnn-reassessment-v1/queries.fasta"
+    ]
+  ],
+  "selection_before_cnn_inference": true,
+  "no_detected_overlap_for_retained_records": true
+}
