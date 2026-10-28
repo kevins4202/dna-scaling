@@ -1,0 +1,13 @@
+
+/data/
+/vendor/
+/.venv-gpu/
+/checkpoints/
+/logs/
+__pycache__/
+
+/tmp/
+/wheels/
+/.venv-*/
+/reports/**/*.pt
+.DS_Store

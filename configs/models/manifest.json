@@ -1,0 +1,60 @@
+{
+  "models": [
+    {
+      "name": "5m",
+      "target_parameters": 5000000,
+      "layers": 24,
+      "width": 160,
+      "attention_heads": 5,
+      "projection_parameters_only": 4915200,
+      "actual_parameters": 5413780,
+      "status": "Research training verified complete: 3051 steps, 99975168 tokens, strict checkpoint reload and generation; same-prompt frozen-CNN distance evaluation verified complete"
+    },
+    {
+      "name": "10m",
+      "target_parameters": 10000000,
+      "layers": 24,
+      "width": 224,
+      "attention_heads": 7,
+      "projection_parameters_only": 9633792,
+      "actual_parameters": 10331804,
+      "status": "Research training verified complete: 3051 steps, 99975168 tokens, strict checkpoint reload and generation; same-prompt frozen-CNN distance evaluation verified complete"
+    },
+    {
+      "name": "25m",
+      "target_parameters": 25000000,
+      "layers": 24,
+      "width": 352,
+      "attention_heads": 11,
+      "projection_parameters_only": 23789568,
+      "actual_parameters": 24886444,
+      "status": "Research training verified complete: 3051 steps, 99975168 tokens, strict checkpoint reload and generation; same-prompt frozen-CNN distance evaluation verified complete"
+    },
+    {
+      "name": "50m",
+      "target_parameters": 50000000,
+      "layers": 24,
+      "width": 512,
+      "attention_heads": 16,
+      "projection_parameters_only": 50331648,
+      "actual_parameters": 51927104,
+      "status": "Research training verified complete: 3051 steps, 99975168 tokens, strict checkpoint reload and generation; same-prompt frozen-CNN distance evaluation verified complete"
+    },
+    {
+      "name": "100m",
+      "target_parameters": 100000000,
+      "layers": 24,
+      "width": 704,
+      "attention_heads": 22,
+      "projection_parameters_only": 95158272,
+      "actual_parameters": 97352024,
+      "status": "Research training verified complete: 3051 steps, 99975168 tokens, strict checkpoint reload and generation; same-prompt frozen-CNN distance evaluation verified complete"
+    }
+  ],
+  "sequence_length": 4096,
+  "tokens_per_step_single_gpu": 32768,
+  "train_steps": 3051,
+  "training_tokens_single_gpu": 99975168,
+  "size_note": "Projection count is a lower bound, not a total parameter estimate. Filters, convolutions, embeddings, biases and norms add parameters. Names are approximate targets pending GPU counts.",
+  "comparison": "Same 24-layer operator schedule, head dimension 32, Hyena grouping ratio, tokenizer, context, seed, effective batch, optimizer, learning-rate schedule and token budget; only width/head/group counts differ."
+}

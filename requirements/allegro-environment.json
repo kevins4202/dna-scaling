@@ -1,0 +1,1347 @@
+{
+  "python": "3.12.15 (main, Oct 13 2026, 16:52:04) [GCC 15.3.0]",
+  "prefix": "/home/ksong37/miniconda3/envs/cis6200",
+  "platform": "linux",
+  "packages": [
+    {
+      "name": "Jinja2",
+      "version": "3.1.6"
+    },
+    {
+      "name": "Markdown",
+      "version": "3.11.2"
+    },
+    {
+      "name": "MarkupSafe",
+      "version": "3.0.4"
+    },
+    {
+      "name": "PyYAML",
+      "version": "6.0.3"
+    },
+    {
+      "name": "Pygments",
+      "version": "2.21.0"
+    },
+    {
+      "name": "Werkzeug",
+      "version": "3.1.9"
+    },
+    {
+      "name": "absl-py",
+      "version": "2.5.1"
+    },
+    {
+      "name": "annotated-types",
+      "version": "0.8.0"
+    },
+    {
+      "name": "anyio",
+      "version": "4.15.1"
+    },
+    {
+      "name": "arrow",
+      "version": "1.4.0"
+    },
+    {
+      "name": "attrs",
+      "version": "26.1.0"
+    },
+    {
+      "name": "boto3",
+      "version": "1.43.118"
+    },
+    {
+      "name": "botocore",
+      "version": "1.43.118"
+    },
+    {
+      "name": "causal-conv1d",
+      "version": "1.7.0"
+    },
+    {
+      "name": "certifi",
+      "version": "2026.10.23"
+    },
+    {
+      "name": "charset-normalizer",
+      "version": "3.5.2"
+    },
+    {
+      "name": "click",
+      "version": "8.5.0"
+    },
+    {
+      "name": "cloudpickle",
+      "version": "3.1.2"
+    },
+    {
+      "name": "contourpy",
+      "version": "1.4.0"
+    },
+    {
+      "name": "cwevals",
+      "version": "0.0.1b1"
+    },
+    {
+      "name": "cycler",
+      "version": "0.12.1"
+    },
+    {
+      "name": "deepspeed",
+      "version": "0.19.8"
+    },
+    {
+      "name": "distro",
+      "version": "1.9.0"
+    },
+    {
+      "name": "einops",
+      "version": "0.8.2"
+    },
+    {
+      "name": "filelock",
+      "version": "4.2.4"
+    },
+    {
+      "name": "flash_attn",
+      "version": "2.6.3"
+    },
+    {
+      "name": "fonttools",
+      "version": "4.67.0"
+    },
+    {
+      "name": "fsspec",
+      "version": "2026.9.0"
+    },
+    {
+      "name": "ftfy",
+      "version": "6.3.1"
+    },
+    {
+      "name": "googleapis-common-protos",
+      "version": "1.76.0"
+    },
+    {
+      "name": "grpcio",
+      "version": "1.84.1"
+    },
+    {
+      "name": "h11",
+      "version": "0.16.0"
+    },
+    {
+      "name": "hf-xet",
+      "version": "1.7.0"
+    },
+    {
+      "name": "hjson",
+      "version": "3.1.0"
+    },
+    {
+      "name": "httpcore",
+      "version": "1.0.9"
+    },
+    {
+      "name": "httpcore2",
+      "version": "2.16.0"
+    },
+    {
+      "name": "httpx",
+      "version": "0.28.1"
+    },
+    {
+      "name": "httpx2",
+      "version": "2.16.0"
+    },
+    {
+      "name": "huggingface_hub",
+      "version": "2.3.0"
+    },
+    {
+      "name": "idna",
+      "version": "3.20"
+    },
+    {
+      "name": "importlib_metadata",
+      "version": "10.1.0"
+    },
+    {
+      "name": "iniconfig",
+      "version": "2.3.1"
+    },
+    {
+      "name": "jmespath",
+      "version": "1.1.0"
+    },
+    {
+      "name": "joblib",
+      "version": "1.6.0"
+    },
+    {
+      "name": "jsonlines",
+      "version": "4.0.0"
+    },
+    {
+      "name": "kiwisolver",
+      "version": "1.5.1"
+    },
+    {
+      "name": "lazy_import_plus",
+      "version": "0.0.2"
+    },
+    {
+      "name": "lm-dataformat",
+      "version": "0.0.20"
+    },
+    {
+      "name": "matplotlib",
+      "version": "3.11.2"
+    },
+    {
+      "name": "mpmath",
+      "version": "1.3.0"
+    },
+    {
+      "name": "msgpack",
+      "version": "1.2.3"
+    },
+    {
+      "name": "narwhals",
+      "version": "2.27.1"
+    },
+    {
+      "name": "networkx",
+      "version": "3.7"
+    },
+    {
+      "name": "ninja",
+      "version": "1.13.2"
+    },
+    {
+      "name": "numpy",
+      "version": "2.2.6"
+    },
+    {
+      "name": "nvidia-cublas-cu12",
+      "version": "12.4.5.8"
+    },
+    {
+      "name": "nvidia-cuda-cupti-cu12",
+      "version": "12.4.127"
+    },
+    {
+      "name": "nvidia-cuda-nvrtc-cu12",
+      "version": "12.4.127"
+    },
+    {
+      "name": "nvidia-cuda-runtime-cu12",
+      "version": "12.4.127"
+    },
+    {
+      "name": "nvidia-cudnn-cu12",
+      "version": "9.1.0.70"
+    },
+    {
+      "name": "nvidia-cufft-cu12",
+      "version": "11.2.1.3"
+    },
+    {
+      "name": "nvidia-curand-cu12",
+      "version": "10.3.5.147"
+    },
+    {
+      "name": "nvidia-cusolver-cu12",
+      "version": "11.6.1.9"
+    },
+    {
+      "name": "nvidia-cusparse-cu12",
+      "version": "12.3.1.170"
+    },
+    {
+      "name": "nvidia-cusparselt-cu12",
+      "version": "0.6.2"
+    },
+    {
+      "name": "nvidia-ml-py",
+      "version": "13.615.71"
+    },
+    {
+      "name": "nvidia-nccl-cu12",
+      "version": "2.21.5"
+    },
+    {
+      "name": "nvidia-nvjitlink-cu12",
+      "version": "12.4.127"
+    },
+    {
+      "name": "nvidia-nvtx-cu12",
+      "version": "12.4.127"
+    },
+    {
+      "name": "omegaconf",
+      "version": "2.4.0"
+    },
+    {
+      "name": "opentelemetry-api",
+      "version": "1.45.1"
+    },
+    {
+      "name": "opentelemetry-exporter-http-transport",
+      "version": "0.66b1"
+    },
+    {
+      "name": "opentelemetry-exporter-otlp-common",
+      "version": "0.66b1"
+    },
+    {
+      "name": "opentelemetry-exporter-otlp-proto-common",
+      "version": "1.45.1"
+    },
+    {
+      "name": "opentelemetry-exporter-otlp-proto-http",
+      "version": "1.45.1"
+    },
+    {
+      "name": "opentelemetry-proto",
+      "version": "1.45.1"
+    },
+    {
+      "name": "opentelemetry-sdk",
+      "version": "1.45.1"
+    },
+    {
+      "name": "opentelemetry-semantic-conventions",
+      "version": "0.66b1"
+    },
+    {
+      "name": "opt_einsum",
+      "version": "3.4.0"
+    },
+    {
+      "name": "packaging",
+      "version": "26.3"
+    },
+    {
+      "name": "pandas",
+      "version": "3.1.0"
+    },
+    {
+      "name": "pillow",
+      "version": "13.0.0"
+    },
+    {
+      "name": "pip",
+      "version": "26.2.2"
+    },
+    {
+      "name": "platformdirs",
+      "version": "4.13.5"
+    },
+    {
+      "name": "pluggy",
+      "version": "1.7.0"
+    },
+    {
+      "name": "protobuf",
+      "version": "7.36.2"
+    },
+    {
+      "name": "psutil",
+      "version": "7.2.2"
+    },
+    {
+      "name": "py-cpuinfo",
+      "version": "9.0.0"
+    },
+    {
+      "name": "pybind11",
+      "version": "3.1.0"
+    },
+    {
+      "name": "pydantic",
+      "version": "2.8.2"
+    },
+    {
+      "name": "pydantic_core",
+      "version": "2.20.1"
+    },
+    {
+      "name": "pyparsing",
+      "version": "3.3.3"
+    },
+    {
+      "name": "pytest",
+      "version": "9.1.1"
+    },
+    {
+      "name": "python-dateutil",
+      "version": "2.9.0.post0"
+    },
+    {
+      "name": "regex",
+      "version": "2026.9.29"
+    },
+    {
+      "name": "requests",
+      "version": "2.34.2"
+    },
+    {
+      "name": "ring-flash-attn",
+      "version": "0.1.8"
+    },
+    {
+      "name": "s3transfer",
+      "version": "0.19.3"
+    },
+    {
+      "name": "scikit-learn",
+      "version": "1.9.1"
+    },
+    {
+      "name": "scipy",
+      "version": "1.18.1"
+    },
+    {
+      "name": "sentencepiece",
+      "version": "0.2.2"
+    },
+    {
+      "name": "setuptools",
+      "version": "80.10.2"
+    },
+    {
+      "name": "six",
+      "version": "1.17.0"
+    },
+    {
+      "name": "sniffio",
+      "version": "1.3.1"
+    },
+    {
+      "name": "sympy",
+      "version": "1.13.1"
+    },
+    {
+      "name": "tensorboard",
+      "version": "2.21.0"
+    },
+    {
+      "name": "tensorboard-data-server",
+      "version": "0.7.2"
+    },
+    {
+      "name": "threadpoolctl",
+      "version": "3.7.0"
+    },
+    {
+      "name": "tokenizers",
+      "version": "0.23.3"
+    },
+    {
+      "name": "torch",
+      "version": "2.6.0"
+    },
+    {
+      "name": "torchaudio",
+      "version": "2.6.0"
+    },
+    {
+      "name": "torchvision",
+      "version": "0.21.0"
+    },
+    {
+      "name": "tqdm",
+      "version": "4.70.1"
+    },
+    {
+      "name": "transformer_engine",
+      "version": "1.13.0"
+    },
+    {
+      "name": "transformer_engine_cu12",
+      "version": "1.13.0"
+    },
+    {
+      "name": "transformer_engine_torch",
+      "version": "1.13.0"
+    },
+    {
+      "name": "triton",
+      "version": "3.2.0"
+    },
+    {
+      "name": "truststore",
+      "version": "0.10.5"
+    },
+    {
+      "name": "typing_extensions",
+      "version": "4.16.0"
+    },
+    {
+      "name": "tzdata",
+      "version": "2026.5"
+    },
+    {
+      "name": "ujson",
+      "version": "6.0.0"
+    },
+    {
+      "name": "urllib3",
+      "version": "2.8.0"
+    },
+    {
+      "name": "wandb",
+      "version": "0.31.0"
+    },
+    {
+      "name": "wcwidth",
+      "version": "0.9.4"
+    },
+    {
+      "name": "wheel",
+      "version": "0.48.0"
+    },
+    {
+      "name": "xxhash",
+      "version": "4.0.2"
+    },
+    {
+      "name": "zipp",
+      "version": "4.1.2"
+    },
+    {
+      "name": "zstandard",
+      "version": "0.25.0"
+    }
+  ],
+  "conda_packages": [
+    {
+      "name": "_openmp_mutex",
+      "version": "4.5",
+      "build_string": "20_gnu"
+    },
+    {
+      "name": "absl-py",
+      "version": "2.5.1",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "annotated-types",
+      "version": "0.8.0",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "anyio",
+      "version": "4.15.1",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "arrow",
+      "version": "1.4.0",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "attrs",
+      "version": "26.1.0",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "boto3",
+      "version": "1.43.118",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "botocore",
+      "version": "1.43.118",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "bzip2",
+      "version": "1.0.8",
+      "build_string": "hda65f42_10"
+    },
+    {
+      "name": "ca-certificates",
+      "version": "2026.10.23",
+      "build_string": "hbd8a1cb_0"
+    },
+    {
+      "name": "causal-conv1d",
+      "version": "1.7.0",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "certifi",
+      "version": "2026.10.23",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "charset-normalizer",
+      "version": "3.5.2",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "click",
+      "version": "8.5.0",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "cloudpickle",
+      "version": "3.1.2",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "contourpy",
+      "version": "1.4.0",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "cwevals",
+      "version": "0.0.1b1",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "cycler",
+      "version": "0.12.1",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "deepspeed",
+      "version": "0.19.8",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "distro",
+      "version": "1.9.0",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "einops",
+      "version": "0.8.2",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "filelock",
+      "version": "4.2.4",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "flash-attn",
+      "version": "2.6.3",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "fonttools",
+      "version": "4.67.0",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "fsspec",
+      "version": "2026.9.0",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "ftfy",
+      "version": "6.3.1",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "googleapis-common-protos",
+      "version": "1.76.0",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "grpcio",
+      "version": "1.84.1",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "h11",
+      "version": "0.16.0",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "hf-xet",
+      "version": "1.7.0",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "hjson",
+      "version": "3.1.0",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "httpcore",
+      "version": "1.0.9",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "httpcore2",
+      "version": "2.16.0",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "httpx",
+      "version": "0.28.1",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "httpx2",
+      "version": "2.16.0",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "huggingface-hub",
+      "version": "2.3.0",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "idna",
+      "version": "3.20",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "importlib-metadata",
+      "version": "10.1.0",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "iniconfig",
+      "version": "2.3.1",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "jinja2",
+      "version": "3.1.6",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "jmespath",
+      "version": "1.1.0",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "joblib",
+      "version": "1.6.0",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "jsonlines",
+      "version": "4.0.0",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "k8",
+      "version": "1.2",
+      "build_string": "he8db53b_6"
+    },
+    {
+      "name": "kernel-headers_linux-64",
+      "version": "4.18.0",
+      "build_string": "he073ed8_9"
+    },
+    {
+      "name": "kiwisolver",
+      "version": "1.5.1",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "lazy-import-plus",
+      "version": "0.0.2",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "ld_impl_linux-64",
+      "version": "2.46.1",
+      "build_string": "default_hbd61a6d_103"
+    },
+    {
+      "name": "libexpat",
+      "version": "2.8.5",
+      "build_string": "hd2095e1_0"
+    },
+    {
+      "name": "libffi",
+      "version": "3.7.0",
+      "build_string": "h81df57d_1"
+    },
+    {
+      "name": "libgcc",
+      "version": "16.2.0",
+      "build_string": "ha9f2e26_7"
+    },
+    {
+      "name": "libgomp",
+      "version": "16.2.0",
+      "build_string": "he0feb66_7"
+    },
+    {
+      "name": "liblzma",
+      "version": "5.8.3",
+      "build_string": "hb03c661_1"
+    },
+    {
+      "name": "libnsl",
+      "version": "2.0.1",
+      "build_string": "hb9d3cd8_1"
+    },
+    {
+      "name": "libpython",
+      "version": "3.12.15",
+      "build_string": "ha57cdbe_2_cpython"
+    },
+    {
+      "name": "libsqlite",
+      "version": "3.54.1",
+      "build_string": "h0737f62_100"
+    },
+    {
+      "name": "libstdcxx",
+      "version": "16.2.0",
+      "build_string": "h934c35e_7"
+    },
+    {
+      "name": "libstdcxx-ng",
+      "version": "16.2.0",
+      "build_string": "hdf11a46_7"
+    },
+    {
+      "name": "libuuid",
+      "version": "2.42.4",
+      "build_string": "hcfc3c73_0"
+    },
+    {
+      "name": "libxcrypt",
+      "version": "4.4.38",
+      "build_string": "h280c20c_0"
+    },
+    {
+      "name": "libzlib",
+      "version": "1.3.2",
+      "build_string": "h25fd6f3_3"
+    },
+    {
+      "name": "lm-dataformat",
+      "version": "0.0.20",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "markdown",
+      "version": "3.11.2",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "markupsafe",
+      "version": "3.0.4",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "matplotlib",
+      "version": "3.11.2",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "minimap2",
+      "version": "2.31",
+      "build_string": "h118bc1c_0"
+    },
+    {
+      "name": "mpmath",
+      "version": "1.3.0",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "msgpack",
+      "version": "1.2.3",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "narwhals",
+      "version": "2.27.1",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "ncurses",
+      "version": "6.6",
+      "build_string": "hdb14827_1"
+    },
+    {
+      "name": "networkx",
+      "version": "3.7",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "ninja",
+      "version": "1.13.2",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "numpy",
+      "version": "2.2.6",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "nvidia-cublas-cu12",
+      "version": "12.4.5.8",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "nvidia-cuda-cupti-cu12",
+      "version": "12.4.127",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "nvidia-cuda-nvrtc-cu12",
+      "version": "12.4.127",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "nvidia-cuda-runtime-cu12",
+      "version": "12.4.127",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "nvidia-cudnn-cu12",
+      "version": "9.1.0.70",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "nvidia-cufft-cu12",
+      "version": "11.2.1.3",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "nvidia-curand-cu12",
+      "version": "10.3.5.147",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "nvidia-cusolver-cu12",
+      "version": "11.6.1.9",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "nvidia-cusparse-cu12",
+      "version": "12.3.1.170",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "nvidia-cusparselt-cu12",
+      "version": "0.6.2",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "nvidia-ml-py",
+      "version": "13.615.71",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "nvidia-nccl-cu12",
+      "version": "2.21.5",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "nvidia-nvjitlink-cu12",
+      "version": "12.4.127",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "nvidia-nvtx-cu12",
+      "version": "12.4.127",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "omegaconf",
+      "version": "2.4.0",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "openssl",
+      "version": "3.6.5",
+      "build_string": "h781a0a9_0"
+    },
+    {
+      "name": "opentelemetry-api",
+      "version": "1.45.1",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "opentelemetry-exporter-http-transport",
+      "version": "0.66b1",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "opentelemetry-exporter-otlp-common",
+      "version": "0.66b1",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "opentelemetry-exporter-otlp-proto-common",
+      "version": "1.45.1",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "opentelemetry-exporter-otlp-proto-http",
+      "version": "1.45.1",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "opentelemetry-proto",
+      "version": "1.45.1",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "opentelemetry-sdk",
+      "version": "1.45.1",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "opentelemetry-semantic-conventions",
+      "version": "0.66b1",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "opt-einsum",
+      "version": "3.4.0",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "packaging",
+      "version": "26.3",
+      "build_string": "pyhc364b38_0"
+    },
+    {
+      "name": "pandas",
+      "version": "3.1.0",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "pillow",
+      "version": "13.0.0",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "pip",
+      "version": "26.2.2",
+      "build_string": "pyh8b19718_0"
+    },
+    {
+      "name": "platformdirs",
+      "version": "4.13.5",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "pluggy",
+      "version": "1.7.0",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "protobuf",
+      "version": "7.36.2",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "psutil",
+      "version": "7.2.2",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "py-cpuinfo",
+      "version": "9.0.0",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "pybind11",
+      "version": "3.1.0",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "pydantic",
+      "version": "2.8.2",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "pydantic-core",
+      "version": "2.20.1",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "pygments",
+      "version": "2.21.0",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "pyparsing",
+      "version": "3.3.3",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "pytest",
+      "version": "9.1.1",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "python",
+      "version": "3.12.15",
+      "build_string": "h5f976f7_2_cpython"
+    },
+    {
+      "name": "python-dateutil",
+      "version": "2.9.0.post0",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "pyyaml",
+      "version": "6.0.3",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "readline",
+      "version": "8.3",
+      "build_string": "hd6e31c0_1"
+    },
+    {
+      "name": "regex",
+      "version": "2026.9.29",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "requests",
+      "version": "2.34.2",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "ring-flash-attn",
+      "version": "0.1.8",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "s3transfer",
+      "version": "0.19.3",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "scikit-learn",
+      "version": "1.9.1",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "scipy",
+      "version": "1.18.1",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "sentencepiece",
+      "version": "0.2.2",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "setuptools",
+      "version": "80.10.2",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "six",
+      "version": "1.17.0",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "sniffio",
+      "version": "1.3.1",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "sympy",
+      "version": "1.13.1",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "sysroot_linux-64",
+      "version": "2.28",
+      "build_string": "h4ee821c_9"
+    },
+    {
+      "name": "tensorboard",
+      "version": "2.21.0",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "tensorboard-data-server",
+      "version": "0.7.2",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "threadpoolctl",
+      "version": "3.7.0",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "tk",
+      "version": "8.6.13",
+      "build_string": "noxft_h1df4ec4_4"
+    },
+    {
+      "name": "tokenizers",
+      "version": "0.23.3",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "torch",
+      "version": "2.6.0",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "torchaudio",
+      "version": "2.6.0",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "torchvision",
+      "version": "0.21.0",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "tqdm",
+      "version": "4.70.1",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "transformer-engine",
+      "version": "1.13.0",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "transformer-engine-cu12",
+      "version": "1.13.0",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "transformer-engine-torch",
+      "version": "1.13.0",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "triton",
+      "version": "3.2.0",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "truststore",
+      "version": "0.10.5",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "typing-extensions",
+      "version": "4.16.0",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "tzdata",
+      "version": "2026.5",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "ujson",
+      "version": "6.0.0",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "urllib3",
+      "version": "2.8.0",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "wandb",
+      "version": "0.31.0",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "wcwidth",
+      "version": "0.9.4",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "werkzeug",
+      "version": "3.1.9",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "wheel",
+      "version": "0.48.0",
+      "build_string": "pyhd8ed1ab_0"
+    },
+    {
+      "name": "xxhash",
+      "version": "4.0.2",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "zipp",
+      "version": "4.1.2",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "zstandard",
+      "version": "0.25.0",
+      "build_string": "pypi_0"
+    },
+    {
+      "name": "zstd",
+      "version": "1.5.7",
+      "build_string": "hb78ec9c_7"
+    }
+  ],
+  "installed_code_checks": {
+    "torch": {
+      "version": "2.6.0",
+      "python_files_verified": 2027,
+      "modified_python_files": [],
+      "unverified_python_files": []
+    },
+    "deepspeed": {
+      "version": "0.19.8",
+      "python_files_verified": 751,
+      "modified_python_files": [],
+      "unverified_python_files": []
+    },
+    "transformer-engine": {
+      "version": "1.13.0",
+      "python_files_verified": 119,
+      "modified_python_files": [],
+      "unverified_python_files": []
+    },
+    "transformer-engine-cu12": {
+      "version": "1.13.0",
+      "python_files_verified": 119,
+      "modified_python_files": [],
+      "unverified_python_files": []
+    },
+    "transformer-engine-torch": {
+      "version": "1.13.0",
+      "python_files_verified": 0,
+      "modified_python_files": [],
+      "unverified_python_files": []
+    },
+    "flash-attn": {
+      "version": "2.6.3",
+      "python_files_verified": 52,
+      "modified_python_files": [],
+      "unverified_python_files": []
+    },
+    "ring-flash-attn": {
+      "version": "0.1.8",
+      "python_files_verified": 11,
+      "modified_python_files": [],
+      "unverified_python_files": []
+    },
+    "causal-conv1d": {
+      "version": "1.7.0",
+      "python_files_verified": 4,
+      "modified_python_files": [],
+      "unverified_python_files": []
+    }
+  },
+  "scope": "A snapshot of the working environment, not a claim that a cold install was tested. CUDA hardware was not initialized by this audit."
+}

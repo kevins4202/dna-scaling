@@ -1,0 +1,16 @@
+export CUDA_VISIBLE_DEVICES=7
+export CIS6200_ENV_BIN=/home/ksong37/miniconda3/envs/cis6200/bin
+export CUDA_HOME=/usr/local/cuda-12.4
+export CUDA_PATH="$CUDA_HOME"
+export LD_LIBRARY_PATH=/home/ksong37/miniconda3/envs/cis6200/lib:${LD_LIBRARY_PATH:-}
+export LD_LIBRARY_PATH=/home/ksong37/miniconda3/envs/cis6200/lib/python3.12/site-packages/nvidia/cudnn/lib:${LD_LIBRARY_PATH:-}
+export PATH="/home/ksong37/miniconda3/envs/cis6200/bin:$CUDA_HOME/bin:$PATH"
+export LD_LIBRARY_PATH="$CUDA_HOME/lib64:${LD_LIBRARY_PATH:-}"
+export PYTHONPATH="/home/ksong37/cis6200/vendor/savanna:${PYTHONPATH:-}"
+export TMPDIR=/home/ksong37/cis6200/tmp
+export PIP_NO_CACHE_DIR=1
+export MAX_JOBS=4
+export TORCH_CUDA_ARCH_LIST=8.6
+export PIP_DEFAULT_TIMEOUT=120
+export PIP_RETRIES=10
+export PIP_RESUME_RETRIES=10
